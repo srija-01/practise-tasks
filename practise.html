@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html style="background-color: rgba(56, 227, 250, 0.89)">
+<head>
+  <link rel="stylesheet" href="successful.html">
+</head>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=password] ,input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 16px 0;
+  display: inline-block;
+  border: 1px solid rgb(233, 227, 227);
+  box-sizing:border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.container {
+  width:400px;
+  top:50%;
+  left:50%;
+  position:absolute;
+  transform:translate(-50%,-50%);
+}
+
+</style>
+</head>
+<body style="background-color: rgb(74, 226, 247)">
+
+<form action="succesful.html" method="post">
+<div class="container" >
+    <h1>LOGIN PAGE</h1>
+    <label for="email-id"><b>Email-id</b></label><br>
+    <input type="email" placeholder="Enter email" name="uname" required><br>
+
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+   
+    <div class="container" style="background-color:#f75f5f">
+    
+  </div>
+</form>
+
+</body>
+</html>
